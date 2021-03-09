@@ -11,3 +11,9 @@
 ​	bs_forecast : "urllib"와 "BeautifulSsoup" 라이브러리를 사용해서 다운 받은 데이터의 특정 내용 추출하기
 
 ​	bs_usd : 네이버 금융에서 환율 데이터만 추출하기
+
+
+
+1-3
+
+​	sel_dongju : CSS 선택자를 복사해서 다운받은 데이터의 특정 내용 추출하기
