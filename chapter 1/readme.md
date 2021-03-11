@@ -1,10 +1,12 @@
-1-1
+# Chapter 1
+
+### 1-1
 
 ​	download_forecast : python에서 제공하는 "urllib" 라이브러리를 사용해서 데이터 다운로드하기
 
 
 
-1-2
+### 1-2
 
 ​	bs_link : 설치한 "BeautifulSoup" 라이브러리로 html 요소에 접근하고 특정 내용 추출하기
 
@@ -14,13 +16,13 @@
 
 
 
-1-3
+### 1-3
 
 ​	sel_dongju : CSS 선택자를 복사해서 다운받은 데이터의 특정 내용 추출하기
 
 
 
-1-4
+### 1-4
 
 ​	cr_path : "urllib" 라이브러리 안의 "urljoin" 함수를 사용해서, URL을 기반으로 상대 경로를 절대 경로로 변환하기
 
