@@ -1,35 +1,51 @@
-from selenium.webdriver import Firefox, FirefoxOptions
+from selenium.webdriver import Chrome, ChromeOptions
+from selenium.webdriver.common.keys import Keys
+import time
+import pyperclip
 
 ID = "kim-nan-hee"
 PASS = "nanhee040225!"
 
 # 파이어폭스 실행
-options = FirefoxOptions()
+options = ChromeOptions()
 options.add_argument("-headless")
-browser = Firefox(options=options)
+browser = Chrome()
 
 url_login = "https://nid.naver.com/nidlogin.login"
 browser.get(url_login)
 print("로그인 페이지에 접근합니다.")
 
 # 아이디와 비밀번호 입력
-e = browser.find_element_by_name("id")
-e.clear()
-e.send_keys(ID)
-e = browser.find_element_by_name("pw")
-e.clear()
-e.send_keys(PASS)
+try:
+    tag_id = browser.find_element_by_name("id")
 
-form = browser.find_element_by_css_selector("input.btn_global[type=submit]")
-form.submit()
-print("로그인 버튼을 클릭합니다.")
+    tag_pw = browser.find_element_by_name("pw")
+    tag_id.clear()
+    tag_pw.clear()
+
+    tag_id.click()
+    pyperclip.copy(ID)
+    tag_id.send_keys(Keys.CONTROL, 'v')
+
+    tag_pw.click()
+    pyperclip.copy(PASS)
+    tag_pw.send_keys(Keys.CONTROL, 'v')
+
+    login_btn = browser.find_element_by_id("log.login")
+    login_btn.click()
+    print("로그인 버튼을 클릭합니다.")
+    time.sleep(2)
+
+except:
+    pass
 
 # 쇼핑 페이지의 데이터 가져오기
 url_shop = "https://order.pay.naver.com/home?tabMenu=SHOPPING"
 browser.get(url_shop)
 
+time.sleep(2)
+
 # 쇼핑 목록 출력
-products = browser.find_element_by_id("_listContentArea")
-print(products)
+products = browser.find_elements_by_class_name("goods")
 for product in products:
-    print("-", product.text)
+    print("-", product.find_element_by_class_name("name").text)
