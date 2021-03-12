@@ -357,3 +357,121 @@ JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: F
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1615508675738	geckodriver	INFO	Listening on 127.0.0.1:64735
+1615508678802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\DSM\\AppData\\Local\\Temp\\rust_mozprofile6mc6Es"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615508681652	Marionette	INFO	Listening on port 64743
+1615508681993	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1615508784769	geckodriver	INFO	Listening on 127.0.0.1:64839
+1615508787845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\DSM\\AppData\\Local\\Temp\\rust_mozprofilesYQGSB"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615508789906	Marionette	INFO	Listening on port 64847
+1615508790032	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1615509668474	geckodriver	INFO	Listening on 127.0.0.1:64969
+1615509671582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DSM\\AppData\\Local\\Temp\\rust_mozprofile1IYxWI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615509675286	Marionette	INFO	Listening on port 64978
+1615509675768	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615509697568	geckodriver	INFO	Listening on 127.0.0.1:65047
+1615509700689	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DSM\\AppData\\Local\\Temp\\rust_mozprofileU8ygm5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615509703621	Marionette	INFO	Listening on port 65055
+1615509703897	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615509714201	Marionette	INFO	Stopped listening on port 65055
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615509725211	geckodriver	INFO	Listening on 127.0.0.1:65120
+1615509728295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DSM\\AppData\\Local\\Temp\\rust_mozprofilejk7btv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615509731426	Marionette	INFO	Listening on port 65128
+1615509731474	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615509975176	geckodriver	INFO	Listening on 127.0.0.1:65306
+1615509978259	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DSM\\AppData\\Local\\Temp\\rust_mozprofiley4jXQg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615509981615	Marionette	INFO	Listening on port 65314
+1615509981930	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615514450308	geckodriver	INFO	Listening on 127.0.0.1:52437
+1615514453389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\DSM\\AppData\\Local\\Temp\\rust_mozprofilegGXEwp"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615514455264	Marionette	INFO	Listening on port 52445
+1615514455459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1615514474987	geckodriver	INFO	Listening on 127.0.0.1:52525
+1615514478083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\DSM\\AppData\\Local\\Temp\\rust_mozprofileZgG1LI"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615514479993	Marionette	INFO	Listening on port 52535
+1615514480158	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://nid.naver.com/login/js/bvsd.1.3.4.min.js, line 16: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1615516919231	geckodriver	INFO	Listening on 127.0.0.1:53139
+1615516922325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\DSM\\AppData\\Local\\Temp\\rust_mozprofilefhNvrj"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615516924273	Marionette	INFO	Listening on port 53147
+1615516924386	Marionette	WARN	TLS certificate errors will be ignored for this session
