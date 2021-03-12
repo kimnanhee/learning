@@ -15,3 +15,5 @@
 ​	selenium_capture : 네이버의 메인 페이지를 캡져해서 저장하기
 
 ​	selenium_login : 네이버에 로그인하고 쇼핑 페이지의 구매 목록 가져오기
+
+​	selenium_js : 자바스크립트 실행한 뒤 결과를 추출하기
