@@ -17,3 +17,11 @@
 ​	selenium_login : 네이버에 로그인하고 쇼핑 페이지의 구매 목록 가져오기
 
 ​	selenium_js : 자바스크립트 실행한 뒤 결과를 추출하기
+
+
+
+### 2-3
+
+​	api_weather : OpenWeatherMap의 웹 API를 사용해서 날씨 정보 가져오기
+
+### 2-4
