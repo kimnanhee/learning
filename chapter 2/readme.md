@@ -24,4 +24,12 @@
 
 ​	api_weather : OpenWeatherMap의 웹 API를 사용해서 날씨 정보 가져오기
 
+
+
 ### 2-4
+
+​	everyday_dollar : 네이버 금융에서 환율을 가져오고, 이름이 날짜인 텍스트 파일을 만들어서 저장하기, pyinstaller로 실행 파일 만들기
+
+
+
+### 2-5
