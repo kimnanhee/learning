@@ -2,7 +2,7 @@ import requests
 import json
 
 # OpenWeathre의 API 키
-apikey = ""
+apikey = "32a726467c9b034751be951861ad2b84"
 
 # 날씨를 확인할 도시
 cities = ["Seoul,KR", "Tokyo,JP", "New York,US"]
