@@ -1,2 +1,3 @@
 docs.python.org
 *.log
+__pycache__
