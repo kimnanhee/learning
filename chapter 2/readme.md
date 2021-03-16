@@ -50,3 +50,11 @@ response.css("h4::text").extract()
 
 quit()
 ```
+
+
+
+### 2-6
+
+​	book3 : scrapy를 사용해서 위키 북스의 도서 목록의 표지 이미지 링크 추출하기
+
+​	book4 : scrapy를 사용해서 위키 북스의 도서 목록의 표시 이미지 저장하기
