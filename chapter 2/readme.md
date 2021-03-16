@@ -39,3 +39,14 @@
 ​	book1 : scapy를 사용해서 위키 북스의 도서 목록 링크를 추출하기
 
 ​	book2 : scrapy를 사용해서 위키 북스의 도서 목록의 링크와 텍스트 추출하기, Json 파일을 만들어서 데이터 저장하기
+
+```
+scrapy shell
+
+fetch("http://wikibook.co.kr/list/)
+
+response.css("title::text").extract_first()
+response.css("h4::text").extract()
+
+quit()
+```
