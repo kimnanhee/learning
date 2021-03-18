@@ -16,6 +16,9 @@
 
 ​	csv_read : 파이썬에서 단순한 CSV 파일 읽어서 출력하기
 
-​	csv_read2 : CSV 모듈을 사용해서, CSV 파일 읽어서 출력하기
+​	csv_read2 : CSV 모듈을 사용해서 CSV 파일 읽어서 출력하기
 
-​	csv_write : CSV 모듈을 사용해서, CSV 파일에 저장하기
+​	csv_write : CSV 모듈을 사용해서 CSV 파일에 저장하기
+
+​	excel_read : openpyxl 모듈을 사용해서 excel 파일 읽어서 데이터 출력하기
+
