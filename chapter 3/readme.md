@@ -20,5 +20,7 @@
 
 ​	csv_write : CSV 모듈을 사용해서 CSV 파일에 저장하기
 
-​	excel_read : openpyxl 모듈을 사용해서 excel 파일 읽어서 데이터 출력하기
+​	excel_read : openpyxl 라이브러리를 사용해서 excel 파일 읽어서 데이터 출력하기
+
+​	excel_read_pd : pandas 라이브러리를 사용해서 excel 파일 읽어서 데이터 출력하기
 
