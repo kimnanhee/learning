@@ -6,6 +6,9 @@ import os.path
 url = "https://www.weather.go.kr/weather/forecast/mid-term-rss3.jsp?stnId=108"
 savename = "forecast.xml"
 req.urlretrieve(url, savename)
+# 저장한 XML 파일이 있으면 읽어서 사용하기
+# if not os.path.exists(savename):
+#   req.urlretrieve(url, savename)
 
 # BeautifulSoup로 분석하기
 xml = open(savename, "r", encoding="utf-8").read()
