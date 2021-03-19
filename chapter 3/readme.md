@@ -24,3 +24,10 @@
 
 ​	excel_read_pd : pandas 라이브러리를 사용해서 excel 파일 읽어서 데이터 출력하기
 
+
+
+### 3-2
+
+​	sqlite3_test : sqlite DB에 연결하고, 테이블을 생성해 데이터 저장하기. DB 파일을 읽어서 데이터 출력하기
+
+​	sqlite3_test2 : sqlite DB에 연결하고, 테이블 생성해 데이터 저장하기. DB 파일을 읽어서 원하는 범위의 데이터만 출력하기
