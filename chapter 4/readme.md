@@ -18,7 +18,7 @@ pip install -U scikit-learn scipy matplotlib scikit-image
 
 fit() - 학습 기계에 데이터를 학습
 
-predit() - 데이터를 넣어 예측
+predict() - 데이터를 넣어 예측
 
 ​	xor_train : sklearn라이브러리의 함수를 사용하여 XOR 연산의 데이터를 학습시키고, 데이터로 결과를 예측하기
 
