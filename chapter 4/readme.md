@@ -22,7 +22,13 @@ predict() - 데이터를 넣어 예측
 
 ​	xor_train : sklearn라이브러리의 함수를 사용하여 XOR 연산의 데이터를 학습시키고, 데이터로 결과를 예측하기
 
-​	xor_train2 : 
+​	xor_train2 : 프레임워크를 사용하여 xor_train 코드를 간단하게 작성하기
+
+​	iris_train : 붓꽃 분류 데이터를 사용하여 붓꽃의 품종 분류하기
+
+​	mnist_download : MNIST 데이터 세트를 다운받아서 압출풀기
+
+​	mnist_tocsv : 이미지 파일 열어서 이미지 데이터를 CSV파일에 저장하기. 10개의 테스트 이미지 파일 저장하기
 
 
 
