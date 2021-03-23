@@ -29,3 +29,7 @@ cl_report = metrics.classification_report(test["labels"], predict)
 print("정답률 :", ac_score)
 print("리포트")
 print(cl_report)
+
+# with open("mnist_train_1000.txt", "w") as f:
+#     f.write(str(ac_score))
+#     f.write(cl_report)
