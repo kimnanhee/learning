@@ -7,7 +7,7 @@ files = [
     "t10k-labels-idx1-ubyte.gz",
     "t10k-images-idx3-ubyte.gz",
     "train-labels-idx1-ubyte.gz",
-    "train-images-idx3-ubyte.gz",
+    "train-images-idx3-ubyte.gz"
 ]
 
 # 다운로드
@@ -20,17 +20,12 @@ for f in files:
         req.urlretrieve(url, loc)
 
 # GZip 압축 해제
-try:
-    for f in files:
-        gz_file = savepath + "/" + f
-        raw_file = savepath + "/" + f.replace(".gz", "")
-        print("gzip : ", f, )
-        with gzip.open(gz_file, "rb") as fp:
-            body = fp.read()
-            if len(body)==0:
-                print("error")
-            with open(raw_file, "wb") as w:
-                w.write(body)
-        print("ok")
-except:
-    pass
+for f in files:
+    gz_file = savepath + "/" + f
+    raw_file = savepath + "/" + f.replace(".gz", "")
+    print("gzip : ", f)
+    with gzip.open(gz_file, "rb") as fp:
+        body = fp.read()
+        with open(raw_file, "wb") as w:
+            w.write(body)
+    print("ok")

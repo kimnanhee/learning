@@ -4,7 +4,7 @@ def to_csv(name, maxdata):
     # 레이블 파일과 이미지 파일 열기
     lbl_f = open("./mnist/" + name + "-labels-idx1-ubyte", "rb")
     img_f = open("./mnist/" + name + "-images-idx3-ubyte", "rb")
-    csv_f = open("./mnist/W" + name + ".csv", "w", encoding="utf-8")
+    csv_f = open("./mnist/" + name + ".csv", "w", encoding="utf-8")
 
     # 헤더 정보 읽기
     mag, lbl_count = struct.unpack(">II", lbl_f.read(8))
