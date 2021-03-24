@@ -44,7 +44,7 @@ predict() - 데이터를 넣어 예측
 
 ​	lang_plot : JSON 파일의 데이터 분포를 그래프로 그린 이미지 파일 저장하기
 
-
+​	lang_train_save : JSON 파일을 읽어서 학습한 결과를 pkl 형식의 파일에 저장하기
 
 
 
