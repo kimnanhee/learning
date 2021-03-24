@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import json
 
-# JSON 파일에 데이터 저장하기
+# JSON 파일의 데이터 읽어오기
 with open("./lang/freq.json", "r", encoding="utf-8") as fp:
     freq = json.load(fp)
 
