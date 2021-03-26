@@ -46,5 +46,7 @@ predict() - 데이터를 넣어 예측
 
 ​	lang_train_save : JSON 파일을 읽어서 학습한 결과를 pkl 형식의 파일에 저장하기
 
+​	lang_webapp : 
 
+​	lang_ui_main : GUI에서 텍스트를 입력받고, 언어를 분석해서 출력하기
 
