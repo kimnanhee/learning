@@ -13,8 +13,7 @@ h = tbl["height"] / 200
 wh = pd.concat([w, h], axis=1)
 
 # 학습용 데이터와 테스트용 데이터로 나누기
-data_train, data_test, label_train, label_test = \
-    train_test_split(wh, label)
+data_train, data_test, label_train, label_test = train_test_split(wh, label)
 
 # 데이터 학습하기
 clf = svm.SVC()
