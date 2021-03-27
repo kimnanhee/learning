@@ -9,7 +9,7 @@ def calc_bmi(h, w):
 
 # 출력 파일 준비하기
 fp =  open("bmi.csv", "w", encoding="utf-8")
-fp.write("height, weight, label\r\n")
+fp.write("height,weight,label\r\n")
 
 # 랜덤으로 데이터 생성하기
 cnt = {"thin" : 0, "normal" : 0, "fat" : 0}
@@ -18,6 +18,6 @@ for i in range(20000):
     w = random.randint(35, 80)
     label = calc_bmi(h, w)
     cnt[label] += 1
-    fp.write("{0}, {1}, {2}\r\n".format(h, w, label))
+    fp.write("{0},{1},{2}\r\n".format(h, w, label))
 fp.close()
 print("cnt :", cnt)
