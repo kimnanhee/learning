@@ -76,6 +76,6 @@ predict() - 데이터를 넣어 예측
 
 ​	cross_iris : 붓꽃 데이터 csv 파일을 읽어서 k개로 분할해 교차 검증하기
 
-​	cross_iris2 : 붓꽃 데이터 csv 파일을 읽어서 sklearn 라이브러리의 크로스 밸리데이션 메서드를 사용하기
+​	cross_iris2 : 붓꽃 데이터 csv 파일을 읽어서 sklearn 라이브러리의 교차 검증(크로스 밸리데이션) 메서드를 사용하기
 
 ​	grid_mnist : 미리 만들어준 MNIST csv 파일을 읽어오기. 그리드 서치로 학습시키고 데이터로 결과를 예측하기
