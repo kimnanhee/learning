@@ -8,6 +8,8 @@
 
 구글에서 오픈소스로 제공하는 머신러닝 라이브러리 : tensor flow
 
+아나콘다
+
 ```python
 https://www.anaconda.com/download/
 # 환경에 맞는 anaconda 설치
@@ -29,3 +31,16 @@ conda info --envs # 가상환경 목록 조회
 conda remove -n "가상환경 이름" --a
 ```
 
+
+
+### 5-2
+
+​	calc : TensorFlow를 사용해서 간단한 덧셈하기
+
+​	calc2 : TensorFlow를 사용해서 간단한 사칙연산하기
+
+
+
+### 5-4
+
+​	var : 상수식을 연산하고 변수에 대입하기
