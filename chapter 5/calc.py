@@ -9,4 +9,4 @@ b = tf.constant(5000)
 add_op = a + b
 
 # 결과 출력하기
-print(add_op)
+tf.print(add_op)

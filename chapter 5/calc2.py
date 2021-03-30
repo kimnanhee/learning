@@ -11,5 +11,5 @@ calc1_op = a + b * c
 calc2_op = (a + b) * c
 
 # 결과 출력하기
-print(calc1_op)
-print(calc2_op)
+tf.print(calc1_op)
+tf.print(calc2_op)
