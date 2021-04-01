@@ -8,5 +8,7 @@ b = tf.constant(5000)
 # 계산 정의
 add_op = a + b
 
-# 결과 출력하기
-tf.print(add_op)
+# 세션 시작하기
+sess = tf.Session()
+res = sess.run(add_op)
+print(res)
