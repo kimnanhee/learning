@@ -35,7 +35,7 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 cross_entropy = -tf.reduce_sum(y_ * tf.log(y))
 optimizer = tf.train.GradientDescentOptimizer(0.01)
 train = optimizer.minimize(cross_entropy)
-
+  
 # 정답률 구하기
 predict = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
 accuracy = tf.reduce_mean(tf.cast(predict, tf.float32))
