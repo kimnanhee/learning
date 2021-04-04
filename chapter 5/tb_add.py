@@ -6,7 +6,7 @@ b = tf.constant(200, name="b")
 c = tf.constant(300, name="c")
 v = tf.Variable(0, name="v")
 
-# 곱셈을 수행하는 그래츠 정의하기
+# 곱셈을 수행하는 그래프 정의하기
 calc_op = a + b * c
 assign_op = tf.assign(v, calc_op)
 
