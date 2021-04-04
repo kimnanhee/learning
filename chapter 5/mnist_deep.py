@@ -9,7 +9,7 @@ nums = 10 # 0~9 사이의 카테고리
 
 # 플레이스홀더 정의하기
 x = tf.placeholder(tf.float32, shape=(None, pixels), name="x")
-y_ = tf.placeholder(tf.float32, shape=(None, pixels), name="y_")
+y_ = tf.placeholder(tf.float32, shape=(None, nums), name="y_")
 
 # 가중치와 바이어스를 초기화하는 함수
 def weight_variable(name, shape):
@@ -72,7 +72,7 @@ with tf.name_scope("readout") as scope:
 
 # 모델 학습시키기
 with tf.name_scope("loss") as scope:
-    cross_entoropy = -tf.reduce_sum(y_ * tf.log(y_conv))
+    cross_entoropy = -tf.reduce_sum(y_ * tf.math.log(y_conv))
 with tf.name_scope("training") as scope:
     optimizer = tf.train.AdamOptimizer(1e-4)
     train_step = optimizer.minimize(cross_entoropy)
@@ -88,7 +88,7 @@ def set_feed(images, labels, prob):
 
 # 세션 시작하기
 with tf.Session() as sess:
-    sess.run(tf.tf.global_variables_initializer())
+    sess.run(tf.global_variables_initializer())
     # tensorboard 준비하기
     tw = tf.summary.FileWriter("log_dir", graph=sess.graph)
     # 테스트 전용 피드 만들기
