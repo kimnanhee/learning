@@ -57,9 +57,12 @@ conda remove -n "가상환경 이름" --a
 
 ​	tb_mul : 간단한 곱셈 연산하고, 텐서보드로 시각화하기
 
+​	tb_add : 덧셈 연산을 수행하는 그래프를 정의하고, 텐서보드로 시각화하기
+
 ```python
 # Not a TBLoader or TBPlugin subclass: ValueError가 발생하면 아래의 명령어 입력
 pip uninstall tensorboard
 pip install tb-nightly
 ```
 
+​	tb_bmi : 5-4의 bmi 코드에 이름을 붙여주고, 스코프로 묶어서 텐서보드로 시각화하기
