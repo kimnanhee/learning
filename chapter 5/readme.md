@@ -8,7 +8,7 @@
 
 구글에서 오픈소스로 제공하는 머신러닝 라이브러리 : tensor flow
 
-아나콘다
+anaconda
 
 ```python
 https://www.anaconda.com/download/
@@ -19,10 +19,12 @@ conda update -n base conda
 conda update --all
 
 conda create -n "가상환경 이름" python=3.6
-activate "가상환경 이름"
+conda activate "가상환경 이름"
+conda deactivate "가상환경 이름"
 
 python -m pip install --upgrade pip
-pip install tensorflow
+pip install tensorflow==1.14.0
+pip install keras==2.2.2
 pip install numpy matplotlib pandas pillow graphviz
 ```
 
@@ -71,8 +73,14 @@ pip install tb-nightly
 
 ### 5-6
 
-합성곱 신경망(Convolutional Neural Network : CNN)
-
-입력층과 출력층 사이의 중간층에 합성곱층과 풀링층을 배치한 것.
+합성곱 신경망(Convolutional Neural Network : CNN) : 입력층과 출력층 사이의 중간층에 합성곱층과 풀링층을 배치한 것.
 
 ​	mnist_deep : 합성곱층과 풀링층을 2개씩 넣고, 전결합층을 넣어서 구성. MNIST 손글씨 데이터를 내려받고, 소프트맥스 회귀 방법으로 그래프 만들기. 확률적 경사 강하법을 사용해서 교차 앤트로피의 값이 최소가 되도록 최적화하기
+
+
+
+###  5-7
+
+Keras : 머신러닝 라이브러리 Theano와 TensorFlow를 wapping한 라이브러리. 다양한 알고리즘으로 머신러닝 프로그램을 만들 수 있게 도와준다. Keras로 작성한 프로그램은 별도의 수정 없이 TensorFlow와 Theano를 바꿔 사용할 수 있다.
+
+​	keras_mnist : 
