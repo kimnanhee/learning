@@ -50,3 +50,16 @@ conda remove -n "가상환경 이름" --a
 ​	placeholder2 : 플레이스 홀더의 크기를 None로 정의하고, 연산하기
 
 ​	bmi : bmi 정보가 저장된 csv 파일을 읽고, 소프트맥스 회귀 방법으로 그래프를 만들기. 교차 엔트로피를 사용하는 오차 함수를 활용해서 데이터를 학습하기
+
+
+
+### 5-5
+
+​	tb_mul : 간단한 곱셈 연산하고, 텐서보드로 시각화하기
+
+```python
+# Not a TBLoader or TBPlugin subclass: ValueError가 발생하면 아래의 명령어 입력
+pip uninstall tensorboard
+pip install tb-nightly
+```
+
