@@ -83,9 +83,9 @@ pip install tb-nightly
 
 Keras : 머신러닝 라이브러리 Theano와 TensorFlow를 wapping한 라이브러리. 다양한 알고리즘으로 머신러닝 프로그램을 만들 수 있게 도와준다. Keras로 작성한 프로그램은 별도의 수정 없이 TensorFlow와 Theano를 바꿔 사용할 수 있다.
 
-​	keras_mnist : 
+​	keras_mnist : MNIST 손글씨 데이터를 내려받고, add 메소드로 각 층 추가하기. compile 메소드로 모델 구축하기
 
-​	keras_bmi :  
+​	keras_bmi : bmi csv 파일을 읽어와서, 정규화하기. batch_size와 np_epoch를 지정해서 compile 메소드로 모델 구축하기
 
 
 
