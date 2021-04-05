@@ -94,3 +94,11 @@ Keras : 머신러닝 라이브러리 Theano와 TensorFlow를 wapping한 라이�
 ​	pd_test_df : pandas에서 사용하는 기본 데이터 형식인 Data Frame 생성하고 출력하기
 
 ​	pd_test_s : Series 형식의 데이터 생성하고 출력하기
+
+​	pd_test_key : Key로 원하는 열의 데이터를  출력하기
+
+​	pd_test_filter : 원하는 조건의 값을 출력하기
+
+​	pd_test_sort : 원하는 조건의 값으로 정렬하고 출력하기
+
+​	pd_test_rot : 행과 열을 반전해서 출력하기
