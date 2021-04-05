@@ -102,3 +102,9 @@ Keras : 머신러닝 라이브러리 Theano와 TensorFlow를 wapping한 라이�
 ​	pd_test_sort : 원하는 조건의 값으로 정렬하고 출력하기
 
 ​	pd_test_rot : 행과 열을 반전해서 출력하기
+
+​	pd_test_calc : NumPy를 사용해서 여러 데이터를 한 번에 조작하기
+
+​	pd_test_norm : Ket로 원하는 열의 데이터를 설정한 값을 기준으로 정규화해서 출력하기
+
+​	pd_test_norm2 : Key로 원하는 열의 데이터의 최솟값과 최댓값을 기준으로 정규화해서 출력하기
