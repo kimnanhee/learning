@@ -11,6 +11,8 @@ def norm(thl, key, value):
     c = thl[key]
     thl[key] = c / value
 
+# thl["weight"] = [i / 100 for i in thl["weight"]]
+# thl["height"] = [i / 200 for i in thl["height"]]
 norm(thl, "weight", 100)
 norm(thl, "height", 200)
 print(thl)
