@@ -84,3 +84,13 @@ pip install tb-nightly
 Keras : 머신러닝 라이브러리 Theano와 TensorFlow를 wapping한 라이브러리. 다양한 알고리즘으로 머신러닝 프로그램을 만들 수 있게 도와준다. Keras로 작성한 프로그램은 별도의 수정 없이 TensorFlow와 Theano를 바꿔 사용할 수 있다.
 
 ​	keras_mnist : 
+
+​	keras_bmi :  
+
+
+
+### 5-8
+
+​	pd_test_df : pandas에서 사용하는 기본 데이터 형식인 Data Frame 생성하고 출력하기
+
+​	pd_test_s : Series 형식의 데이터 생성하고 출력하기
