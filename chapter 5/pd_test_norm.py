@@ -7,6 +7,10 @@ thl = pd.DataFrame({
     "gender" : ["f", "m", "m", "f", "m"]
 })
 
-thl["weight"] = [i / 100 for i in thl["weight"]]
-thl["height"] = [i / 200 for i in thl["height"]]
+def norm(thl, key, value):
+    c = thl[key]
+    thl[key] = c / value
+
+norm(thl, "weight", 100)
+norm(thl, "height", 200)
 print(thl)
