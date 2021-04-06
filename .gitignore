@@ -2,3 +2,4 @@ docs.python.org
 *.log
 __pycache__
 .vscode
+log_dir
