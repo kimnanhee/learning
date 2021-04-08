@@ -57,3 +57,28 @@ class BayesianFilter:
         words = self.split(text)
         score_list = []
         for category in self.category_dict.keys():
+            score = self.score(words, category)
+            score_list.append((category, score))
+            if score > max_score:
+                max_score = score
+                best_category = category
+        return best_category, score_list
+
+    # 카테고리 내부의 단어 출현 횟수 구하기
+    def get_word_count(self, word, category):
+        if word in self.word_dict[category]:
+            return self.word_dict[category][word]
+        else:
+            return 0
+
+    # 카테고리 계산
+    def category_prob(self, category):
+        sum_category = sum(self.category_dict.values())
+        category_v = self.category_dict[category]
+        return category_v / sum_category
+
+    # 카테고리 내부의 단어 출현 비율 계산
+    def word_prob(self, word, category):
+        n = self.get_word_count(word, category) + 1
+        d = sum(self.word_dict[category].values()) + len(self.words)
+        return n / d
