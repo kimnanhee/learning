@@ -12,8 +12,12 @@
 # 땅과 가까운 단어 출력하기
 from gensim.models import word2vec
 model = word2vec.Word2Vec.load("toji.model") 
-model.wv.most_similar(positive=["땅"]) 
+model.wv.most_similar(positive=["땅"])
 ```
+
+
+
+### 6-2
 
 ​	wiki_wakati : 
 
@@ -25,4 +29,18 @@ model.mv.most_similar(positive=["왕자", "여성"], negative=["남성"])[0:5]
 ```
 
 
+
+### 베이즈 정리(Bayes' theorem)
+
+조건부 확률과 관련된 이론, P(B|A) = P(A|B) * P(B) / P(A)
+
+단순한 출현율 = 단어의 출현 횟수 / 카테고리 전체 단어의 수
+
+
+
+### 6-3
+
+​	bayes : 베이지안 필터를 구현한 BayesianFilter 클래스 생성하기
+
+​	bayes_test : BayesianFilter 클래스의 fit 메서드로 텍스트를 학습시키고, 판정 결과를 출력하기
 
