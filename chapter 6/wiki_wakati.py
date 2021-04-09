@@ -27,5 +27,5 @@ while True:
     for word in malist:
         # 어미, 조사, 구두점 제외
         if not word[1] in ["Josa", "Eomi", "Punctuation"]:
-            writeFp(word[0]+" ")
+            writeFp.write(word[0]+" ")
 writeFp.close()
