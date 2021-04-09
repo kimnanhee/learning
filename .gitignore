@@ -3,3 +3,8 @@ docs.python.org
 __pycache__
 .vscode
 log_dir
+
+wiki.txt
+wiki.gubun
+wiki.model
+wiki.model.*
