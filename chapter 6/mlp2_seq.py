@@ -58,7 +58,6 @@ def count_freq(limit = 0):
         cat_idx = len(cat_names)
         cat_names.append(cat)
         files = glob.glob(cat_dir + "/*.gubun")
-        print(files)
         i = 0
         for path in files:
             print(path)
@@ -81,7 +80,7 @@ else:
 # 테스트 용 데이터 만들기
 x, y = count_freq(20)
 json.dump({"x" : x, "y" : y}, open(data_file_min, "w"))
-print("------")
+
 # 전체 데이터 만들기
 x, y = count_freq()
 json.dump({"x" : x, "y" : y}, open(data_file, "w"))
