@@ -58,3 +58,11 @@ model.wv.most_similar(positive=["왕자", "여성"], negative=["남성"])[0:5]
 ​	mlp2_seq : 텍스트를 숫자 벡터로 변환하기. 학습에 사용할 데이터를 JSON 형식으로 저장하기
 
 ​	mlp3_classify : JSON 형식의 데이터를 읽고, Keras로 MLP 모델을 구축해서 테스트하기
+
+
+
+### 6-5
+
+​	lev_distance : 레벤슈타인 거리를 계산해서 문자열 사이의 거리 출력하기
+
+​	ngram_test : N-gram으로 문장의 유사도를 구해서 출력하기
