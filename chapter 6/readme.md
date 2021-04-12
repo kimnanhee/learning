@@ -66,3 +66,9 @@ model.wv.most_similar(positive=["왕자", "여성"], negative=["남성"])[0:5]
 ​	lev_distance : 레벤슈타인 거리를 계산해서 문자열 사이의 거리 출력하기
 
 ​	ngram_test : N-gram으로 문장의 유사도를 구해서 출력하기
+
+
+
+### 6-6
+
+​	markov : 토지의 문장을 분석해서 json 형식의 파일에 저장하기. 마르코프 체인을 사용해서 문장을 생성해서 출력하기
