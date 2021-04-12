@@ -4,6 +4,11 @@ from konlpy.tag import Okt
 import urllib.request
 import os, re, json, random
 
+from selenium.webdriver import Chrome, ChromeOptions
+from selenium.webdriver.common.keys import Keys
+import time
+import pyperclip
+
 # 마르코프 체인 만들기
 def make_dic(words):
     tmp = ["@"]
@@ -41,17 +46,32 @@ def make_sentence(dic):
         if w3 == ".": break
         w1, w2 = w2, w3
     ret = "".join(ret)
-    # 띄어쓰기
-    params = urllib.parse.urlencode({
-        "_callback": "",
-        "q": ret
-    })
-    # 네이버 맞춤법 검사기 사용해서 띄어쓰기
-    data = urllib.request.urlopen("https://m.search.naver.com/p/csearch/ocontent/util/SpellerProxy?"+params)
-    data = data.read().decode("utf-8")[1:-2]
-    data = json.loads(data)
-    data = data["message"]["result"]["html"]
-    data = soup = BeautifulSoup(data, "html.parser").getText()
+
+    # 파이어폭스 실행
+    options = ChromeOptions()
+    options.add_argument("-headless")
+    browser = Chrome()
+
+    url_login = "https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=1&acq=%EB%A7%9E%EC%B6%94&qdt=0&ie=utf8&query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0"
+    browser.get(url_login)
+    try:
+        tag_textarea = browser.find_element_by_class_name("txt_gray")
+        tag_textarea.click()
+        pyperclip.copy(ret)
+        time.sleep(1)
+        tag_textarea.send_keys(Keys.CONTROL, 'a')
+        tag_textarea.send_keys(Keys.CONTROL, 'v')
+
+        tag_btn = browser.find_element_by_class_name("btn_check")
+        tag_btn.click()
+
+        time.sleep(2)
+
+        tag_copy = browser.find_element_by_class_name("copy")
+        tag_copy.click()
+        data = pyperclip.paste()
+    except:
+        return "error"
     # 리턴
     return data
 
