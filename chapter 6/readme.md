@@ -74,3 +74,13 @@ model.wv.most_similar(positive=["왕자", "여성"], negative=["남성"])[0:5]
 ​	markov : 토지의 형태소를 분석해서 json 형식의 파일에 저장하기. 마르코프 체인을 사용해 문장을 생성하고 출력하기
 
 ​	lstm_text_gen : . 토지의 형태소를 분석해서 LSTM 모델을 구축하기. 반복해서 문장을 생성하고 출력하기
+
+
+
+### 6-7
+
+​	chat : Designer로 만든 chatbot ui 변환 파일
+
+​	chat_engine : 사용자가 입력한 문장의 형태소를 분석해서 json형식의 파일에 저장하기. 마르코프 체인을 사용해서 문장을 생성하기
+
+​	chat_main : 푸쉬 버튼이 눌리면 chat_engine 안의 make_reply 함수 호출하기. chatbot과의 채팅 형태로 출력하기.
