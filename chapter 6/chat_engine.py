@@ -41,7 +41,7 @@ def set_word3(dic, s3):
 
 # 문장 만들기
 def make_sentence(head):
-    print("make sentence head -", head)
+    # print("make sentence head -", head)
     if not head in dic: return ""
     ret = []
     if head != "@": ret.append(head)
@@ -62,12 +62,12 @@ def make_sentence(head):
 
     # 맞춤법 검사하기
     options = ChromeOptions()
-    options.add_argument("-headless")
-    browser = Chrome(chrome_options=options)
+    options.add_argument("headless")
+    browser = Chrome()
 
     url_login = "https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=1&acq=%EB%A7%9E%EC%B6%94&qdt=0&ie=utf8&query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0"
     browser.get(url_login)
-    try:
+    try: 
         tag_textarea = browser.find_element_by_class_name("txt_gray")
         tag_textarea.click()
         pyperclip.copy(ret)
@@ -84,6 +84,7 @@ def make_sentence(head):
         data = pyperclip.paste()
     except:
         print("error")
+    browser.close()
     return data
 
 def word_choice(sel):
@@ -96,7 +97,7 @@ def make_reply(text):
     if not text[-1] in [".", "?"]: text += "."
     words = okt.pos(text)
     register_dic(words)
-    print("words -", words)
+    # print("words -", words)
     # 사전에 단어가 있다면, 단어를 기반으로 문장 만들기
     for word in words:
         face = word[0]
