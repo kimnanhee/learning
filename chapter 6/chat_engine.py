@@ -59,11 +59,10 @@ def make_sentence(head):
         if w3 == "." or w3 == "?" or w3 == "": break
         w1, w2 = w2, w3
     ret = "".join(ret)
-    print("ret -", ret)
 
-    # 맞춤법 검사
+    # 맞춤법 검사하기
     options = ChromeOptions()
-    options.add_argument("headless")
+    options.add_argument("-headless")
     browser = Chrome(chrome_options=options)
 
     url_login = "https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=1&acq=%EB%A7%9E%EC%B6%94&qdt=0&ie=utf8&query=%EB%A7%9E%EC%B6%A4%EB%B2%95%EA%B2%80%EC%82%AC%EA%B8%B0"
@@ -72,22 +71,19 @@ def make_sentence(head):
         tag_textarea = browser.find_element_by_class_name("txt_gray")
         tag_textarea.click()
         pyperclip.copy(ret)
-        time.sleep(0.5)
+        time.sleep(1)
+
         tag_textarea.send_keys(Keys.CONTROL, 'a')
         tag_textarea.send_keys(Keys.CONTROL, 'v')
-
         tag_btn = browser.find_element_by_class_name("btn_check")
         tag_btn.click()
-
-        time.sleep(1)
+        time.sleep(2)
 
         tag_copy = browser.find_element_by_class_name("copy")
         tag_copy.click()
         data = pyperclip.paste()
     except:
-        return "error"
-    # 리턴
-    print("data -", data)
+        print("error")
     return data
 
 def word_choice(sel):
