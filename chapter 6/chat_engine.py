@@ -59,7 +59,6 @@ def make_sentence(head):
         if w3 == "." or w3 == "?" or w3 == "": break
         w1, w2 = w2, w3
     ret = "".join(ret)
-
     # 맞춤법 검사하기
     options = ChromeOptions()
     options.add_argument("headless")
